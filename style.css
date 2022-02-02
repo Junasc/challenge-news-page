@@ -4,11 +4,6 @@
     src: url(font/Londrina.ttf);
 }
 
-body{
-    background-color: #81B386;
-    margin: 0%;
-}
-
 header{
     text-align: center;
     width: auto;
@@ -16,9 +11,30 @@ header{
     padding: 10px 10px;
     background-image: linear-gradient( to top , #2B6632 , #9fcfa5);
 }
-#titleHead , #Phead{
-    color: white;
+
+body{
+    background-color: #81B386;
+    margin: 0%;
 }
+
+#titleHead{
+    color: white;
+    font: normal lighter 3em 'Londrina';
+}
+
+#Phead{
+    color: white;
+    font: normal lighter 20px 'Sans-serif';
+}
+
+.title {
+    color: green;
+    font: normal lighter 30px 'Londrina';
+    background-color: rgba(141, 209, 141, 0.411);
+    border-radius: 15px;
+    padding:8px;
+}
+
 main{
     background-color: honeydew;
     width: 50%;
@@ -26,8 +42,28 @@ main{
     margin: auto;
     font: normal lighter 20px 'sans-serif';
 }
+
+aside{
+    background-color: rgba(26, 102, 26, 0.164);
+    border-radius: 20px;
+    padding: 5px;
+
+}
+aside > p {
+    margin: 5%;
+}
+aside > h4 {
+    margin: 0px;
+}
+ol ,ul {
+    list-style:"✓ ";
+    column-count: 2;
+}
+
 footer{
     background-color: #2B6632;
+    color: white;
+    font: normal lighter 15px 'Sans-serif';
     text-align: center;
     padding: 5px;
 }
