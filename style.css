@@ -49,7 +49,11 @@ img{
   display: block;
 
 }
-
+div {
+  text-align:center;
+  position: relative; 
+  overflow: hidden;
+}
 .title {
   color: green;
   font: normal lighter 30px "Londrina";
@@ -60,7 +64,8 @@ img{
 
 main {
   background-color: honeydew;
-  max-width: 50%;
+  width: 80%;
+  max-width: 750px;
   padding: 18px;
   margin: auto;
   font: normal lighter 20px "sans-serif";
