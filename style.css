@@ -11,36 +11,43 @@ header {
   padding: 5px;
   background-image: linear-gradient(to top, #2b6632, #9fcfa5);
 }
-    header > h1 {
-    color: white;
-    font: normal lighter 3em "Londrina";
-    }
+header > h1 {
+  color: white;
+  font: normal lighter 3em "Londrina";
+}
 
-    header > p {
-        color: white;
-        font: normal lighter 20px "Sans-serif";
-        padding-bottom: 30px;
-      }
+header > p {
+  color: white;
+  font: normal lighter 20px "Sans-serif";
+  padding-bottom: 30px;
+}
 
 menu > ul {
   list-style: "";
   column-count: 4;
   font: normal lighter 20px "sans-serif";
 }
-    menu > ul :hover {
-    color: lawngreen;
-    }
-    a:link {
-    color: honeydew;
-    text-decoration: none;
-    }
-    a:visited{
-        color: rgb(255, 255, 255);
-    }
+menu > ul :hover {
+  color: lawngreen;
+}
+a:link {
+  color: honeydew;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(255, 255, 255);
+}
 
 body {
   background-color: #81b386;
   margin: 0%;
+}
+
+img{
+  width: 60%;
+  margin: auto;
+  display: block;
+
 }
 
 .title {
@@ -53,7 +60,7 @@ body {
 
 main {
   background-color: honeydew;
-  width: 50%;
+  max-width: 50%;
   padding: 18px;
   margin: auto;
   font: normal lighter 20px "sans-serif";
