@@ -15,17 +15,25 @@ header > h1 {
   color: white;
   font: normal lighter 3em "Londrina";
 }
-
 header > p {
   color: white;
   font: normal lighter 20px "Sans-serif";
   padding-bottom: 30px;
+  text-align: center;
+}
+menu {
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 menu > ul {
+  padding: 0;
   list-style: "";
-  column-count: 4;
   font: normal lighter 20px "sans-serif";
+  display: flex; 
+  
 }
 menu > ul :hover {
   color: lawngreen;
@@ -33,6 +41,7 @@ menu > ul :hover {
 a:link {
   color: honeydew;
   text-decoration: none;
+  padding: 12px;
 }
 a:visited {
   color: rgb(255, 255, 255);
