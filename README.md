@@ -21,7 +21,7 @@ Meu objetivo é exercitar conhecimentos em HTML e CSS.
 ## 👨‍🏫 Exemplo de uso
 
 <p align="center">
-  <img src="">
+  <img src="./images/screen-capture.gif">
 </p>
 
 ## 👨🏼‍💻 Autor
