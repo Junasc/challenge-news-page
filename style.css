@@ -12,7 +12,7 @@ header {
   background-image: linear-gradient(to top, #2b6632, #9fcfa5);
 }
 
-header > h1 {
+#title{
   color: white;
   font: normal lighter 3em "Londrina";
 }
@@ -20,7 +20,7 @@ header > h1 {
 header > p {
   color: white;
   font: normal lighter 20px "Sans-serif";
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   text-align: center;
 }
 
