@@ -11,7 +11,7 @@ Reesultado do desafio proposto pelo curso em video.
 
 ## 🎯 Objetivo
 
- Criar uma página web com uma matéria sobre como surgiu o mascote da android.
+ Criar uma página web com uma matéria sobre como surgiu o mascote da android. Desafio proposto pelo curso em video.
 
 ## ✒️ Justificativa
 
@@ -19,6 +19,8 @@ Meu objetivo é exercitar conhecimentos em HTML e CSS.
 
 
 ## 👨‍🏫 Exemplo de uso
+
+Confira em : https://junasc.github.io/challenge-news-page/
 
 <p align="center">
   <img src="./images/screen-capture.gif">
