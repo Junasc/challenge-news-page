@@ -12,13 +12,13 @@ header {
   background-image: linear-gradient(to top, #2b6632, #9fcfa5);
 }
 
-#title{
-  color: white;
+h1{
+  color: rgb(255, 255, 255);
   font: normal lighter 3em "Londrina";
 }
 
 header > p {
-  color: white;
+  color: rgb(255, 255, 255);
   font: normal lighter 20px "Sans-serif";
   padding-bottom: 0px;
   text-align: center;
@@ -38,20 +38,23 @@ menu > ul {
   display: flex; 
 }
 
-menu > ul :hover {
-  color: lawngreen;
+#menu a:hover {
+  color: rgb(124, 252, 0);
+  transition: 600ms;
 }
 
-a:link {
-  color: honeydew;
+#menu :link {
+  color: rgb(240, 255, 240);
   text-decoration: none;
   padding: 12px;
 }
 
-a:visited {
+#menu :visited {
   color: rgb(255, 255, 255);
 }
-
+a{
+  color: #104115;
+}
 body {
   background-color: #81b386;
   margin: 0%;
@@ -85,11 +88,14 @@ main {
   margin: auto;
   font: normal lighter 20px "sans-serif";
 }
-
 aside {
   background-color: rgba(26, 102, 26, 0.164);
   border-radius: 20px;
   padding: 5px;
+}
+
+abbr{
+  text-decoration: none;
 }
 
 aside > p {
