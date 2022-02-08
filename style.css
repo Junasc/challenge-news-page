@@ -4,6 +4,14 @@
   src: url(font/Londrina.ttf);
 }
 
+:root{
+  --cor0: #ffffff;
+  --cor1: #7cfc00;
+  --cor2: #008000;
+  --cor3: #103f15;
+  --cor4: #8dd18d69;
+}
+
 header {
   text-align: center;
   width: auto;
@@ -13,12 +21,12 @@ header {
 }
 
 h1{
-  color: rgb(255, 255, 255);
+  color:var(--cor0);
   font: normal lighter 3em "Londrina";
 }
 
 header > p {
-  color: rgb(255, 255, 255);
+  color:var(--cor0);
   font: normal lighter 20px "Sans-serif";
   padding-bottom: 0px;
   text-align: center;
@@ -39,24 +47,24 @@ menu > ul {
 }
 
 #menu a:hover {
-  color: rgb(124, 252, 0);
+  color: var(--cor1);
   transition: 600ms;
 }
 
 #menu :link {
-  color: rgb(240, 255, 240);
+  color: var(--cor0);
   text-decoration: none;
   padding: 12px;
 }
 
 #menu :visited {
-  color: rgb(255, 255, 255);
+  color: var(--cor0);
 }
 a{
-  color: #104115;
+  color: var(--cor3);
 }
 body {
-  background-color: #81b386;
+  background-color: var(--cor4);
   margin: 0%;
 }
 
@@ -73,15 +81,15 @@ div {
 }
 
 .title {
-  color: green;
+  color: var(--cor2);
   font: normal lighter 30px "Londrina";
-  background-color: rgba(141, 209, 141, 0.411);
+  background-color: var(--cor4);
   border-radius: 15px;
   padding: 8px;
 }
 
 main {
-  background-color: honeydew;
+  background-color: var(--cor0);
   width: 80%;
   max-width: 750px;
   padding: 18px;
@@ -89,7 +97,7 @@ main {
   font: normal lighter 20px "sans-serif";
 }
 aside {
-  background-color: rgba(26, 102, 26, 0.164);
+  background-color:var(--cor4);
   border-radius: 20px;
   padding: 5px;
 }
@@ -112,8 +120,8 @@ aside > h4 {
 }
 
 footer {
-  background-color: #2b6632;
-  color: white;
+  background-color: var(--cor3);
+  color: var(--cor0);
   font: normal lighter 15px "Sans-serif";
   text-align: center;
   padding: 5px;
