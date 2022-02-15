@@ -93,6 +93,7 @@ img{
   width: 60%;
   margin: auto;
   display: block;
+  min-width: 400px;
 }
 
 a{
@@ -131,9 +132,11 @@ aside > h4 {
 }
 
 #AndroidList {
-  list-style: '\2714\00A0';
+  list-style: '\2714';
   list-style-position: inside;
   column-count: 2;
+  min-width: 200px;
+  padding-inline-start: 0px;
 }
 
 
